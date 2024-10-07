@@ -27,6 +27,7 @@ alias mv='mv -i'
 #
 # export PS1='[\u@\h \w]\$ '
 export PS1='\[\e[31;1m\][\u@\h\[\e[33;1m\] \w]\$ \[\e[m\]'
+# PS1 변수 설정
 
 alias ls='ls -h --color=auto'
 alias pps='ps -ef | head -1; ps -ef | grep $1'
